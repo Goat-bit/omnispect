@@ -1,0 +1,1903 @@
+[
+  {
+    "id": 1,
+    "title": "Steins;Gate",
+    "media_type": "anime",
+    "genres": [
+      "Sci-Fi",
+      "Time Travel",
+      "Thriller"
+    ],
+    "rating": 9.1,
+    "release_year": 2011,
+    "synopsis": "A self-proclaimed mad scientist discovers a way to send text messages into the past, triggering unforeseen butterfly effects.",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1935/127974.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Cyberpunk: Edgerunners",
+    "media_type": "anime",
+    "genres": [
+      "Cyberpunk",
+      "Action",
+      "Sci-Fi"
+    ],
+    "rating": 8.6,
+    "release_year": 2022,
+    "synopsis": "A street kid trying to survive in a technology and body modification-obsessed city of the future chooses to become an edgerunner.",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Monster",
+    "media_type": "anime",
+    "genres": [
+      "Psychological",
+      "Thriller",
+      "Mystery"
+    ],
+    "rating": 8.9,
+    "release_year": 2004,
+    "synopsis": "A brilliant neurosurgeon's life spirals into chaos after he chooses to save a young boy's life over the town's mayor.",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/10/18793.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Attack on Titan",
+    "media_type": "anime",
+    "genres": [
+      "Action",
+      "Dark Fantasy",
+      "Mystery"
+    ],
+    "rating": 9.0,
+    "release_year": 2013,
+    "synopsis": "After his hometown is destroyed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans.",
+    "poster_url": "https://cdn.myanimelist.net/images/anime/10/47347.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Interstellar",
+    "media_type": "movie",
+    "genres": [
+      "Sci-Fi",
+      "Time Travel",
+      "Drama"
+    ],
+    "rating": 8.7,
+    "release_year": 2014,
+    "synopsis": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot is tasked to pilot a spacecraft to find a new planet for humanity.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Blade Runner 2049",
+    "media_type": "movie",
+    "genres": [
+      "Cyberpunk",
+      "Sci-Fi",
+      "Mystery"
+    ],
+    "rating": 8.0,
+    "release_year": 2017,
+    "synopsis": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Shutter Island",
+    "media_type": "movie",
+    "genres": [
+      "Psychological",
+      "Thriller",
+      "Mystery"
+    ],
+    "rating": 8.2,
+    "release_year": 2010,
+    "synopsis": "Two U.S. Marshals are sent to an asylum on a remote island to investigate the disappearance of a patient.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/4GDy0PHYX3VRXUtwK5ysFbg3kEx.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Inception",
+    "media_type": "movie",
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Thriller"
+    ],
+    "rating": 8.8,
+    "release_year": 2010,
+    "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Dark Knight",
+    "media_type": "movie",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "rating": 9.0,
+    "release_year": 2008,
+    "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological tests.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Dune: Part Two",
+    "media_type": "movie",
+    "genres": [
+      "Sci-Fi",
+      "Adventure",
+      "Drama"
+    ],
+    "rating": 8.6,
+    "release_year": 2024,
+    "synopsis": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+  },
+  {
+    "id": 11,
+    "title": "The Matrix",
+    "media_type": "movie",
+    "genres": [
+      "Cyberpunk",
+      "Sci-Fi",
+      "Action"
+    ],
+    "rating": 8.7,
+    "release_year": 1999,
+    "synopsis": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth about reality.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Oppenheimer",
+    "media_type": "movie",
+    "genres": [
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "rating": 8.3,
+    "release_year": 2023,
+    "synopsis": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Dark",
+    "media_type": "series",
+    "genres": [
+      "Sci-Fi",
+      "Time Travel",
+      "Mystery"
+    ],
+    "rating": 8.7,
+    "release_year": 2017,
+    "synopsis": "A family saga with a supernatural twist, set in a German town where the disappearance of two young children exposes four families.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Severance",
+    "media_type": "series",
+    "genres": [
+      "Psychological",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "rating": 8.7,
+    "release_year": 2022,
+    "synopsis": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/lFf6LLrQjYldcZItzOkGmMMigP7.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Mr. Robot",
+    "media_type": "series",
+    "genres": [
+      "Cyberpunk",
+      "Psychological",
+      "Thriller"
+    ],
+    "rating": 8.5,
+    "release_year": 2015,
+    "synopsis": "Elliot, a brilliant but unstable cyber-security engineer and vigilante hacker, becomes a key figure in a complex game of global dominance.",
+    "poster_url": "https://image.tmdb.org/t/p/w500/oKIBhzZzDX07SoE2bOLhq2EE8rf.jpg"
+  },
+  {
+    "id": 16,
+    "title": "My Hero Academia",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2016,
+    "synopsis": "What would the world be like if 80 percent of the population manifested extraordinary superpowers called \u201cQuirks\u201d at age four? Heroes and villains would be battling it out everywhere! Becoming a hero would mean learning to use your power, but where w...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/11469/large.jpg"
+  },
+  {
+    "id": 17,
+    "title": "My Hero Academia Season 2",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2017,
+    "synopsis": "Taking off right after the last episode of the first season. The school is temporarily closed due to security. When U.A. restarts, it is announced that the highly anticipated School Sports Festival will soon be taking place. All classes: Hero, Suppor...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/12268/large.jpg"
+  },
+  {
+    "id": 18,
+    "title": "One Punch Man",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2015,
+    "synopsis": "The seemingly ordinary and unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream, he trained relentlessly for three years\u2014and lost all of his hair in the process. Now, Saitama is incredibly powerful, so ...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/10740/large.jpg"
+  },
+  {
+    "id": 19,
+    "title": "My Hero Academia Season 3",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2018,
+    "synopsis": "Summer is here, and the heroes of Class 1-A and 1-B are in for the toughest training camp of their lives! A group of seasoned pros pushes everyone's Quirks to new heights as the students face one overwhelming challenge after another. Braving the elem...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/13881/large.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Death Note",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2006,
+    "synopsis": "A shinigami, as a god of death, can kill any person\u2014provided they see their victim's face and write their victim's name in a notebook called a Death Note. One day, Ryuk, bored by the shinigami lifestyle and interested in seeing how a human would use ...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/1376/large.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2009,
+    "synopsis": "\"In order for something to be obtained, something of equal value must be lost.\"\n\nAlchemy is bound by this Law of Equivalent Exchange\u2014something the young brothers Edward and Alphonse Elric only realize after attempting human transmutation: the one for...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/3936/large.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Your Name.",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2016,
+    "synopsis": "From director Makoto Shinkai, the innovative mind behind Voices of a Distant Star and 5 Centimeters Per Second, comes a beautiful masterpiece about time, the thread of fate, and the hearts of two young souls.\n\nThe day the stars fell, two lives change...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/11614/large.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Hunter x Hunter (2011)",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.4,
+    "release_year": 2011,
+    "synopsis": "Hunter x Hunter is set in a world where Hunters exist to perform all manner of dangerous tasks like capturing criminals and bravely searching for lost treasures in uncharted territories. Twelve-year-old Gon Freecss is determined to become the best Hu...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/6448/large.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.6,
+    "release_year": 2019,
+    "synopsis": "It is the Taisho Period in Japan. Tanjiro, a kindhearted boy who sells charcoal for a living, finds his family slaughtered by a demon. To make matters worse, his younger sister Nezuko, the sole survivor, has been transformed into a demon herself. Tho...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/41370/large.jpg"
+  },
+  {
+    "id": 25,
+    "title": "The Seven Deadly Sins",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.2,
+    "release_year": 2014,
+    "synopsis": "In a world similar to the European Middle Ages, the feared yet revered Holy Knights of Britannia use immensely powerful magic to protect the region of Britannia and its kingdoms. However, a small subset of the Knights supposedly betrayed their homela...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/8699/large.jpg"
+  },
+  {
+    "id": 26,
+    "title": "A Silent Voice",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.4,
+    "release_year": 2016,
+    "synopsis": "Shoya is a bully. When Shoko, a girl who can't hear, enters his elementary school class, she becomes their favorite target, and Shoya and his friends goad each other into devising new tortures for her. But the children's cruelty goes too far. Shoko i...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/10028/large.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Attack on Titan Season 2",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.4,
+    "release_year": 2017,
+    "synopsis": "Eren Jaeger swore to wipe out every last Titan, but in a battle for his life he wound up becoming the thing he hates most. With his new powers, he fights for humanity's freedom facing the monsters that threaten his home. After a bittersweet victory a...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/8671/large.jpg"
+  },
+  {
+    "id": 28,
+    "title": "One Piece",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.4,
+    "release_year": 1999,
+    "synopsis": "Gol D. Roger was known as the \"Pirate King,\" the strongest and most infamous being to have sailed the Grand Line. The capture and death of Roger by the World Government brought a change throughout the world. His last words before his death revealed t...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/12/large.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Attack on Titan Season 3",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.4,
+    "release_year": 2018,
+    "synopsis": "After recovering Eren and Historia, the recruits are put under the care of Levi. Stuck out in the middle of nowhere, Hange subjects Eren to a series of experiments in an attempt to find out more about his ability. But when their link to the secrets b...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/13569/large.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Spirited Away",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2001,
+    "synopsis": "Stubborn, spoiled, and na\u00efve, 10-year-old Chihiro Ogino is less than pleased when she and her parents discover an abandoned amusement park on the way to their new house. Cautiously venturing inside, she realizes that there is more to this place than ...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/176/large.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Attack on Titan Season 3 Part 2",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.5,
+    "release_year": 2019,
+    "synopsis": "The battle to retake Wall Maria begins now! With Eren\u2019s new hardening ability, the Scouts are confident they can seal the wall and take back Shiganshina District. If they succeed, Eren can finally unlock the secrets of the basement\u2014and the world. But...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/41982/large.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Assassination Classroom Second Season",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2016,
+    "synopsis": "The students return as school is back in session for the second semester. Following their exploits on the island during summer vacation, Class 3-E continues to sharpen their blades with their sights set on their teacher, the slippery Koro-sensei. The...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/10877/large.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Haikyu!!",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2014,
+    "synopsis": "Inspired after watching a volleyball ace nicknamed \"Little Giant\" in action, small-statured Shouyou Hinata revives the volleyball club at his middle school. The newly-formed team even makes it to a tournament; however, their first match turns out to ...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/8133/large.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Assassination Classroom",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Fantasy"
+    ],
+    "rating": 8.3,
+    "release_year": 2015,
+    "synopsis": "When a mysterious creature chops the moon down to a permanent crescent, the students of class 3-E of Kunugigaoka Middle School find themselves confronted with an enormous task: assassinate the creature responsible for the disaster before Earth suffer...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/8640/large.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Breaking Bad",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "rating": 9.2,
+    "release_year": 2008,
+    "synopsis": "Breaking Bad follows protagonist Walter White, a chemistry teacher who lives in New Mexico with his wife and teenage son who has cerebral palsy. White is diagnosed with Stage III cancer and given a prognosis of two years left to live. With a new sens...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253519.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Firefly",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "rating": 9.0,
+    "release_year": 2002,
+    "synopsis": "Five hundred years in the future, a renegade crew aboard a small spacecraft tries to survive as they travel the unknown parts of the galaxy and evade warring factions as well as authority agents out to get them.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/1/2600.jpg"
+  },
+  {
+    "id": 37,
+    "title": "Game of Thrones",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Fantasy"
+    ],
+    "rating": 8.9,
+    "release_year": 2011,
+    "synopsis": "Based on the bestselling book series A Song of Ice and Fire by George R.R. Martin, this sprawling new HBO drama is set in a world where summers span decades and winters can last a lifetime. From the scheming south and the savage eastern lands, to the...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/498/1245274.jpg"
+  },
+  {
+    "id": 38,
+    "title": "The Wire",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": 8.9,
+    "release_year": 2002,
+    "synopsis": "The first season of The Wire (2002) concentrated on the often-futile efforts of police to infiltrate a West Baltimore drug ring headed by Avon Barksdale and his lieutenant, Stringer Bell. In Seasons Two and Three, as the Barksdale investigation escal...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/504/1260189.jpg"
+  },
+  {
+    "id": 39,
+    "title": "Person of Interest",
+    "media_type": "series",
+    "genres": [
+      "Action",
+      "Crime",
+      "Science-Fiction"
+    ],
+    "rating": 8.8,
+    "release_year": 2011,
+    "synopsis": "You are being watched. The government has a secret system, a machine that spies on you every hour of every day. I know because I built it. I designed the Machine to detect acts of terror but it sees everything. Violent crimes involving ordinary peopl...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/163/407679.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Stargate SG\u00b71",
+    "media_type": "series",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "rating": 8.8,
+    "release_year": 1997,
+    "synopsis": "Stargate SG-1 is a science fiction series based on the original film Stargate. It involves the team SG-1 going on various adventures to different alien worlds through Stargates. Throughout the series they encounter various alien threats and allies in...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/1/3027.jpg"
+  },
+  {
+    "id": 41,
+    "title": "Stargate Atlantis",
+    "media_type": "series",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "rating": 8.8,
+    "release_year": 2004,
+    "synopsis": "Atlantis, built thousands of years ago by the highly evolved Ancients, is home base for an elite expedition from Earth. These courageous military commanders and scientists leap through the city's Stargate to explore the wondrous Pegasus galaxy and ba...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/498/1245482.jpg"
+  },
+  {
+    "id": 42,
+    "title": "Justified",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Western"
+    ],
+    "rating": 8.7,
+    "release_year": 2010,
+    "synopsis": "Deputy U.S. Marshal Raylan Givens is something of a 19th century-style officer in modern times, whose unconventional enforcement of justice makes him a target with criminals and a problem for his superiors in the U.S. Marshals Service. As a result of...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/0/808.jpg"
+  },
+  {
+    "id": 43,
+    "title": "House",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Medical"
+    ],
+    "rating": 8.7,
+    "release_year": 2004,
+    "synopsis": "Sink your teeth into meaty drama and intrigue with House, FOX's take on mystery, where the villain is a medical malady and the hero is an irreverent, controversial doctor who trusts no one, least of all his patients.Dr. Gregory House is a maverick ph...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/357/894990.jpg"
+  },
+  {
+    "id": 44,
+    "title": "Battlestar Galactica",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Science-Fiction",
+      "War"
+    ],
+    "rating": 8.7,
+    "release_year": 2003,
+    "synopsis": "The world ended with no warning, and all that was left\u2026 was hope.A truce between the humans of the Twelve Colonies and the Cylons\u2014intelligent robots designed by humankind\u2014lasts for 40 tense and silent years. Battlestar Galactica picks up just as the ...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/0/2313.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Rick and Morty",
+    "media_type": "series",
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "rating": 8.7,
+    "release_year": 2013,
+    "synopsis": "Rick is a mentally gifted, but sociopathic and alcoholic scientist and a grandfather to Morty; an awkward, impressionable, and somewhat spineless teenage boy. Rick moves into the family home of Morty, where he immediately becomes a bad influence.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/626/1566363.jpg"
+  },
+  {
+    "id": 46,
+    "title": "Vikings",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Action",
+      "History"
+    ],
+    "rating": 8.6,
+    "release_year": 2013,
+    "synopsis": "Vikings transports us to the brutal and mysterious world of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore - and raid - the distant shores across the ocean.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/286/715906.jpg"
+  },
+  {
+    "id": 47,
+    "title": "Fargo",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "rating": 8.6,
+    "release_year": 2014,
+    "synopsis": "Fargo is a seasonal anthology crime drama with some dark comical elements, inspired by the film Fargo written by the Coen brothers. Each season follows a new case and new characters, all entrenched in the trademark humor, murder and \"Minnesota nice\" ...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/487/1219631.jpg"
+  },
+  {
+    "id": 48,
+    "title": "Orphan Black",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "rating": 8.6,
+    "release_year": 2013,
+    "synopsis": "Orphan Black is about Sarah, an outsider and orphan whose life changes dramatically after witnessing the suicide of a woman, \"Beth\", who looks just like her. Sarah takes her identity, her boyfriend and her money. But instead of solving her problems, ...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/484/1210257.jpg"
+  },
+  {
+    "id": 49,
+    "title": "Fringe",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Action",
+      "Science-Fiction"
+    ],
+    "rating": 8.6,
+    "release_year": 2008,
+    "synopsis": "When an international flight lands at Boston's Logan Airport and the passengers and crew have all died grisly deaths, FBI Special Agent Olivia Dunham is called in to investigate. After her partner is nearly killed during the investigation, a desperat...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/0/2245.jpg"
+  },
+  {
+    "id": 50,
+    "title": "Banshee",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "rating": 8.6,
+    "release_year": 2013,
+    "synopsis": "Banshee stars Antony Starr as Lucas Hood, an ex-con and master thief who assumes the identity of the sheriff of Banshee, Pennsylvania, where he continues his criminal activities, even as he's hunted by the shadowy gangsters he betrayed years earlier.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/504/1260183.jpg"
+  },
+  {
+    "id": 51,
+    "title": "The Americans",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Espionage"
+    ],
+    "rating": 8.5,
+    "release_year": 2013,
+    "synopsis": "The Americans is a period drama about the complex marriage of two KGB spies posing as Americans in suburban Washington D.C. shortly after Ronald Reagan is elected President.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/146/366911.jpg"
+  },
+  {
+    "id": 52,
+    "title": "Grimm",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Supernatural"
+    ],
+    "rating": 8.4,
+    "release_year": 2011,
+    "synopsis": "Grimm is a drama series inspired by the classic Grimm Brothers' Fairy Tales. After Portland homicide detective Nick Burkhardt discovers he's descended from an elite line of criminal profilers known as \"Grimms\", he increasingly finds his responsibilit...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/69/174906.jpg"
+  },
+  {
+    "id": 53,
+    "title": "Supernatural",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Action",
+      "Supernatural"
+    ],
+    "rating": 8.4,
+    "release_year": 2005,
+    "synopsis": "This haunting series follows the Winchester brothers as they crisscross the lonely and mysterious back roads of the country in their '67 Chevy Impala, hunting down every evil supernatural force they encounter along the way.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/445/1114097.jpg"
+  },
+  {
+    "id": 54,
+    "title": "Utopia",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "rating": 8.4,
+    "release_year": 2013,
+    "synopsis": "Utopia based initially around a small group of people who find a rare manuscript of the same name. This leads the group to be targeted by a large organisation with little knowledge of the manuscript's relevance or importance.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/275/688620.jpg"
+  },
+  {
+    "id": 55,
+    "title": "Boardwalk Empire",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": 8.4,
+    "release_year": 2010,
+    "synopsis": "As the country struggles to cope with the Great Depression and the end of Prohibition looms, Nucky Thompson looks to legitimize himself through alliances with liquor producers, while rivals Lucky Luciano and Meyer Lansky seek to consolidate their pow...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/405/1012589.jpg"
+  },
+  {
+    "id": 56,
+    "title": "Silicon Valley",
+    "media_type": "series",
+    "genres": [
+      "Comedy"
+    ],
+    "rating": 8.4,
+    "release_year": 2014,
+    "synopsis": "In the high-tech gold rush of modern Silicon Valley, the people most qualified to succeed are the least capable of handling success. From Mike Judge comes this satire about a programmer whose game-changing algorithm becomes the subject of a valley-wi...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/215/538434.jpg"
+  },
+  {
+    "id": 57,
+    "title": "Shameless",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Family"
+    ],
+    "rating": 8.4,
+    "release_year": 2011,
+    "synopsis": "Shameless is a fiercely engaging and fearlessly twisted series. Chicagoan Frank Gallagher is the proud single dad of six smart, industrious, independent kids, who without him would be... perhaps better off. When Frank's not at the bar spending what l...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/486/1215661.jpg"
+  },
+  {
+    "id": 58,
+    "title": "The Newsroom",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.4,
+    "release_year": 2012,
+    "synopsis": "The Newsroom follows the members of a cable news team on their quixotic mission to do the news well in the face of a fickle audience, corporate mandates and tangled personal relationships.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/0/2066.jpg"
+  },
+  {
+    "id": 59,
+    "title": "Dexter",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "rating": 8.4,
+    "release_year": 2006,
+    "synopsis": "He's smart, he's good looking, and he's got a great sense of humor. He's Dexter Morgan, everyone's favorite serial killer. As a Miami forensics expert, he spends his days solving crimes, and nights committing them. But Dexter lives by a strict code o...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/498/1246067.jpg"
+  },
+  {
+    "id": 60,
+    "title": "Black Sails",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 8.4,
+    "release_year": 2014,
+    "synopsis": "1715. The Golden Age of Piracy. New Providence Island is a lawless territory, controlled by history's most notorious pirate captains. The most feared is Captain Flint.As the British Navy returns to redeem their land and exterminate Flint and his crew...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253514.jpg"
+  },
+  {
+    "id": 61,
+    "title": "The Knick",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Medical"
+    ],
+    "rating": 8.3,
+    "release_year": 2014,
+    "synopsis": "New York City, 1900: The Knickerbocker Hospital is home to groundbreaking surgeons, nurses and staff who push the boundaries of medicine in a time of astonishingly high mortality rates and zero antibiotics. The newly appointed leader of the surgery s...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/0/417.jpg"
+  },
+  {
+    "id": 62,
+    "title": "Sons of Anarchy",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "rating": 8.3,
+    "release_year": 2008,
+    "synopsis": "Sons of Anarchy is an American television drama series created by Kurt Sutter, about the lives of a close-knit outlaw motorcycle club operating in Charming, a fictional town in California's Central Valley. The show centers on protagonist Jackson \"Jax...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/495/1239905.jpg"
+  },
+  {
+    "id": 63,
+    "title": "South Park",
+    "media_type": "series",
+    "genres": [
+      "Comedy"
+    ],
+    "rating": 8.3,
+    "release_year": 1997,
+    "synopsis": "South Park is an adult comedy animation show centred around 4 children in the small town of south park. Its humour is often dark involving satirical elements and mocking current real-life events.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/641/1604427.jpg"
+  },
+  {
+    "id": 64,
+    "title": "Elementary",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "rating": 8.3,
+    "release_year": 2012,
+    "synopsis": "Elementary is a modern-day take on the classic Sherlock Holmes story about a crime-solving duo that cracks the NYPD's most impossible cases. Following his fall from grace in London and a stint in rehab, eccentric Sherlock escapes to Manhattan where h...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/195/488201.jpg"
+  },
+  {
+    "id": 65,
+    "title": "Doctor Who",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Science-Fiction"
+    ],
+    "rating": 8.3,
+    "release_year": 2005,
+    "synopsis": "Adventures across time and space with the time travelling alien and companions.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/488/1220400.jpg"
+  },
+  {
+    "id": 66,
+    "title": "Homeland",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Espionage"
+    ],
+    "rating": 8.2,
+    "release_year": 2011,
+    "synopsis": "The winner of 6 Emmy Awards including Outstanding Drama Series, Homeland is an edge-of-your-seat sensation. Marine Sergeant Nicholas Brody is both a decorated hero and a serious threat. CIA officer Carrie Mathison is tops in her field despite being b...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/498/1245275.jpg"
+  },
+  {
+    "id": 67,
+    "title": "Penny Dreadful",
+    "media_type": "series",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Supernatural"
+    ],
+    "rating": 8.2,
+    "release_year": 2014,
+    "synopsis": "Some of literature's most terrifying characters, including Dr. Frankenstein and his monster, Dorian Gray, and iconic figures from the novel Dracula are lurking in the darkest corners of Victorian London. They are joined by a core of original characte...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/48/122260.jpg"
+  },
+  {
+    "id": 68,
+    "title": "The Killing",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "rating": 8.2,
+    "release_year": 2011,
+    "synopsis": "The Killing follows Seattle homicide detectives Stephen Holder and Sarah Linden and their work as detectives investigating murders. Sarah Linden takes cases very seriously and has issues keeping her work and family separate, as she pairs up with reco...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/216/540157.jpg"
+  },
+  {
+    "id": 69,
+    "title": "The Originals",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Supernatural"
+    ],
+    "rating": 8.2,
+    "release_year": 2013,
+    "synopsis": "The Originals is a spin-off show from the supernatural drama The Vampire Diaries. It is based in the city of New Orleans where the originals represent the original vampires. The show is primarily based around conflict between vampires, werewolves and...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/271/678632.jpg"
+  },
+  {
+    "id": 70,
+    "title": "Castle",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "rating": 8.2,
+    "release_year": 2009,
+    "synopsis": "Castle follows Rick Castle who is one of the world's most successful crime authors. But when his rock star lifestyle isn't enough, this bad boy goes looking for new trouble and finds it working with smart, beautiful Detective Kate Beckett. Inspired b...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/13/34761.jpg"
+  },
+  {
+    "id": 71,
+    "title": "Hell on Wheels",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Action",
+      "Western"
+    ],
+    "rating": 8.2,
+    "release_year": 2011,
+    "synopsis": "Hell on Wheels is an American Western television series about the construction of the First Transcontinental Railroad across the United States. The series follows the Union Pacific Railroad and its surveyors, laborers, prostitutes, mercenaries, and o...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/0/526.jpg"
+  },
+  {
+    "id": 72,
+    "title": "The Mentalist",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "rating": 8.2,
+    "release_year": 2008,
+    "synopsis": "Patrick Jane, an independent consultant with the California Bureau of Investigation (CBI), has a remarkable track record for solving serious crimes by using his razor sharp skills of observation. Within the Bureau, Jane is notorious for his blatant l...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/0/1239.jpg"
+  },
+  {
+    "id": 73,
+    "title": "Lost",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Adventure",
+      "Supernatural"
+    ],
+    "rating": 8.2,
+    "release_year": 2004,
+    "synopsis": "Out of the blackness, the first thing Jack senses is pain. Then burning sun. A Bamboo forest. Smoke. Screams. With a rush comes the horrible awareness that the plane he was on tore apart in mid-air and crashed on a Pacific island. From there it's a b...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/0/1389.jpg"
+  },
+  {
+    "id": 74,
+    "title": "Joker Game",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 6.8,
+    "release_year": 2016,
+    "synopsis": "With World War ll right around the corner, intelligence on other countries' social and economic situation has become a valuable asset. As a result, Japan, has established a new spy organization known as the \"D Agency\" to obtain this weapon.\nUnder the...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/11320/large.jpg"
+  },
+  {
+    "id": 75,
+    "title": "JOKER",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 6.8,
+    "release_year": 2014,
+    "synopsis": "In the story, there is nothing in the world that the mysterious phantom thief Joker cannot steal. He goes after one treasure after another in unpredictable capers with seemingly miraculous tricks.\n(Source: ANN)",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/8664/large.jpg"
+  },
+  {
+    "id": 76,
+    "title": "Joker Game: Kuroneko Yoru no Bouken",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 6.6,
+    "release_year": 2016,
+    "synopsis": "Specials included with the Blu-ray box set releases of Joker Game.",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/12183/large.jpg"
+  },
+  {
+    "id": 77,
+    "title": "JOKER 2nd Season",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.4,
+    "release_year": 2015,
+    "synopsis": "Second season in the Kaitou Joker anime series.\nThe thief Mysterious Joker doesn't just steal things. An audacious and elusive miracle-maker, he travels the world searching for treasure with his partner and cook Hachi. As they circle the globe, they ...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/10070/large.jpg"
+  },
+  {
+    "id": 78,
+    "title": "JOKER 3rd Season",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.2,
+    "release_year": 2016,
+    "synopsis": "Third season in the Kaitou Joker anime series.\nThe thief Mysterious Joker doesn't just steal things. An audacious and elusive miracle-maker, he travels the world searching for treasure with his partner and cook Hachi. As they circle the globe, they m...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/11393/large.jpg"
+  },
+  {
+    "id": 79,
+    "title": "Joker: Marginal City",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 5.8,
+    "release_year": 1992,
+    "synopsis": "OVA based on the Joker manga by artist Katsumi Michihara (\u9053\u539f\u304b\u3064\u307f) and writer Yuu Maki (\u9ebb\u57ce\u3086\u3046).\nJoker is a genetically engineered shape-and-gender-shifter, who created as part of a Special Police Task Force and fights crime of all kinds, but he/she also...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/3177/large.jpg"
+  },
+  {
+    "id": 80,
+    "title": "Mysterious Joker",
+    "media_type": "series",
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Anime"
+    ],
+    "rating": 8.0,
+    "release_year": 2014,
+    "synopsis": "In the story, there is nothing in the world that the mysterious phantom thief Joker cannot steal. He goes after one treasure after another in unpredictable capers with seemingly miraculous tricks.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/53/133648.jpg"
+  },
+  {
+    "id": 81,
+    "title": "Lady Joker",
+    "media_type": "series",
+    "genres": [
+      "Mystery"
+    ],
+    "rating": 8.0,
+    "release_year": 2013,
+    "synopsis": "A suspicious audio CD is delivered to Shiroyama Kyosuke, president of Hinode Beer, exposing the company's past wrongdoings. Meanwhile, a group of men\u2014including Monoi Seizo, a pharmacy owner, and Handa Shuhei, a detective\u2014plot to steal money from Hino...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/608/1521096.jpg"
+  },
+  {
+    "id": 82,
+    "title": "Jack and Joker",
+    "media_type": "series",
+    "genres": [
+      "Action",
+      "Crime",
+      "Romance"
+    ],
+    "rating": 8.3,
+    "release_year": 2024,
+    "synopsis": "Joker leads a double life. Boastful and talented in conversation, he is secretly a notorious thief wanted by the police. Using his exceptional disguise skills, Joker robs wealthy oppressors and redistributes their riches to aid struggling villagers. ...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/529/1323840.jpg"
+  },
+  {
+    "id": 83,
+    "title": "Joker Yurusarezaru Sosakan",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": 8.0,
+    "release_year": 2010,
+    "synopsis": "Date Kazuyoshi is a detective on the Kanagawa prefectural police force. During the day, he is known as a \"Buddha\" for his gentle personality, pouring all of his energy into resolving each case. At night, however, he transforms into a cruel punisher a...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/159/399215.jpg"
+  },
+  {
+    "id": 84,
+    "title": "Jolly Joker",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.0,
+    "release_year": 2019,
+    "synopsis": "Series matching joker.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/553/1382984.jpg"
+  },
+  {
+    "id": 85,
+    "title": "Naruto: Shippuden",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 8.4,
+    "release_year": 2007,
+    "synopsis": "It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the mysterious organization of elite rogue ninja, is closing...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/1555/large.jpg"
+  },
+  {
+    "id": 86,
+    "title": "Naruto",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 8.0,
+    "release_year": 2002,
+    "synopsis": "Moments prior to Naruto Uzumaki's birth, a huge demon known as the Kyuubi, the Nine-Tailed Fox, attacked Konohagakure, the Hidden Leaf Village, and wreaked havoc. In order to put an end to the Kyuubi's rampage, the leader of the village, the Fourth H...",
+    "poster_url": "https://media.kitsu.app/anime/11/poster_image/large-5e901605066f7f2727f49d01859bbfe4.jpeg"
+  },
+  {
+    "id": 87,
+    "title": "Road to Ninja: Naruto the Movie",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.8,
+    "release_year": 2012,
+    "synopsis": "Ten years ago, a gigantic demon beast known as the Nine-Tailed Demon Fox was released from its jinchuuriki by an unknown shinobi wearing a mask. The village of Konohagakure was close to destruction by the attack of the Nine-Tails, but the village was...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/7008/large.jpg"
+  },
+  {
+    "id": 88,
+    "title": "Naruto the Movie: Ninja Clash in the Land of Snow",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 6.9,
+    "release_year": 2004,
+    "synopsis": "A land forever covered in ice... A princess missing for ten years... And one high-spirited ninja named Naruto! \nNaruto and the rest of Squad 7 take on a new mission: bring popular movie star Yukie Fujikaze to the Land of Snow, where they're filming t...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/405/large.jpg"
+  },
+  {
+    "id": 89,
+    "title": "Naruto: Shippuden the Movie",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.3,
+    "release_year": 2007,
+    "synopsis": "Demons that once almost destroyed the world, are revived by someone. To prevent the world from being destroyed, the demon has to be sealed and the only one who can do it is the shrine maiden Shion from the country of demons, who has two powers; one i...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/2245/large.jpg"
+  },
+  {
+    "id": 90,
+    "title": "Naruto: Shippuden the Movie 2 -Bonds-",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.2,
+    "release_year": 2008,
+    "synopsis": "A mysterious group of ninjas makes a surprise attack on the Konohagakure, which takes great damage. The nightmare of another Shinobi World War could become a reality. Sasuke, who left Konoha to kill his brother, Itachi, appears for the second time in...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/3606/large.jpg"
+  },
+  {
+    "id": 91,
+    "title": "Naruto: Shipp\u016bden",
+    "media_type": "series",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Anime"
+    ],
+    "rating": 8.2,
+    "release_year": 2007,
+    "synopsis": "Naruto: Shippuden is the continuation of the original animated TV series Naruto.The story revolves around an older and slightly more matured Uzumaki Naruto and his quest to save his friend Uchiha Sasuke from the grips of the snake-like Shinobi, Oroch...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/3/9413.jpg"
+  },
+  {
+    "id": 92,
+    "title": "Boruto: Naruto Next Generations",
+    "media_type": "series",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Anime"
+    ],
+    "rating": 7.1,
+    "release_year": 2016,
+    "synopsis": "Naruto was a young shinobi with an incorrigible knack for mischief. He achieved his dream to become the greatest ninja in the village and his face sits atop the Hokage monument. But this is not his story... A new generation of ninja are ready to take...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/101/253829.jpg"
+  },
+  {
+    "id": 93,
+    "title": "Naruto SD: Rock Lee no Seishun Full-Power Ninden",
+    "media_type": "series",
+    "genres": [
+      "Comedy",
+      "Action",
+      "Anime"
+    ],
+    "rating": 7.1,
+    "release_year": 2012,
+    "synopsis": "Naruto SD: Rock Lee no Seishun Full-Power Ninden (aka) is the anime adaptation of the Naruto spin-off manga, Rock Lee no Seishun Full-Power Ninden.The series chronicles the daily life and training of Konohagakure ninja Rock Lee, who can utilize taiju...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/148/370704.jpg"
+  },
+  {
+    "id": 94,
+    "title": "Maruko",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.0,
+    "release_year": 2017,
+    "synopsis": "Series matching naruto.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/102/256358.jpg"
+  },
+  {
+    "id": 95,
+    "title": "Narco Wars",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 6.7,
+    "release_year": 2020,
+    "synopsis": "Despite $1 trillion spent on enforcement and 2.5 million death toll, more illegal drugs are being produced, trafficked, and consumed than ever before. Featuring interviews and action filmed with key players on both sides of the law, this 10 part seri...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/287/717993.jpg"
+  },
+  {
+    "id": 96,
+    "title": "Bagani",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.0,
+    "release_year": 2018,
+    "synopsis": "Bagani plays in a fantasy world called Sansinukob in which five groups are in conflict with each other and struggling to survive.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/646/1616776.jpg"
+  },
+  {
+    "id": 97,
+    "title": "Baghin",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Supernatural"
+    ],
+    "rating": 8.0,
+    "release_year": 2024,
+    "synopsis": "A girl and a vengeful spirit share connection rooted in the past. The spirit selects the girl to seek revenge against those responsible for its demise. Fueled by justice she embodies revenge settling scores and unveiling intertwined fates.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/503/1258388.jpg"
+  },
+  {
+    "id": 98,
+    "title": "Tegami Bachi",
+    "media_type": "series",
+    "genres": [
+      "Anime"
+    ],
+    "rating": 8.0,
+    "release_year": 2009,
+    "synopsis": "With his mother taken away from him and having lost everything, Lag Seeing is now a letter whose delivery has been assigned to Gauche Suede, a Letter Bee. Despite their troubling start, the two of them become friends, leading Lag to realize what his aim in life is: to deliver people's most important feelings in the form of letters, just as Gauche has done.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/111/277601.jpg"
+  },
+  {
+    "id": 99,
+    "title": "Byomkesh Bakshi",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "rating": 8.0,
+    "release_year": 1993,
+    "synopsis": "Byomkesh Bakshi is a fictional detective in Bengali literature created by Sharadindu Bandyopadhyay. He is one of the most successful detective characters in Bengali literature. Bandyopadhyay once said that these stories can be thought as and read as social novels only. In Bangla, Byomkesh means \"the sky\". Directed by Basu Chatterjee, Season 1 aired in 1993 Season 2 aired in 1997.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/280/701765.jpg"
+  },
+  {
+    "id": 100,
+    "title": "Koroshi no Joou Bachi",
+    "media_type": "series",
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "rating": 8.0,
+    "release_year": 2013,
+    "synopsis": "Cowtown. A place where no law exists. The authorities all turn a blind eye to everything that happens there. In Cowtown, there is a cabaret called \"Ashinaga Bachi\", loosely translated it means Long-legged Wasps. Here, the dancers are actually assassins for hire, and they are famous for getting the job done, no matter what. With their long legs and sexy looks, they draw their target to them using their charms and wiles.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/58/145065.jpg"
+  },
+  {
+    "id": 101,
+    "title": "Diya Aur Baati Hum",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "rating": 8.0,
+    "release_year": 2011,
+    "synopsis": "Diya Aur Baati Hum is the story of Sandhya's struggles, who dreams of becoming an IPS officer. She dreams to break the boundaries of her confined existence of middle class values. The story is also about Sooraj, who is a self made man. Sooraj runs a famous sweet shop near his house. Sooraj and Sandhya get married under strained circumstances. Sandhya will not be able to finish her graduation. Soon she is part of the family she does not even know. This story is about Sandhya's struggle to fulfill her dream and a journey where she finds help from the most unlikely quarter - a husband who can make it possible.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/132/330252.jpg"
+  },
+  {
+    "id": 102,
+    "title": "BanG Dream!",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 6.9,
+    "release_year": 2017,
+    "synopsis": "When she was a child, Kasumi Toyama felt a heart-pounding thrill every time she gazed at the stars, and she's been looking without success for something that could inspire the same feeling ever since. One day, she comes across a star-shaped guitar in a rundown pawnshop and, for the first time, discovers the thrill she's been searching for. Kasumi becomes determined to form an all-girl band, and her search leads her to four like-minded souls: Saya, Arisa, Rimi, and Tae. Does this band have what it takes to make their dreams of stardom come true?\n\n(Source: Crunchyroll)",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/12330/large.jpg"
+  },
+  {
+    "id": 103,
+    "title": "BanG Dream! S2",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.5,
+    "release_year": 2019,
+    "synopsis": "Second season of BanG Dream! series.",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/41289/large.jpg"
+  },
+  {
+    "id": 104,
+    "title": "BanG Dream! 3rd Season",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.8,
+    "release_year": 2020,
+    "synopsis": "Third season of BanG Dream! Series.",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/41290/large.jpg"
+  },
+  {
+    "id": 105,
+    "title": "BanG Dream! Garupa\u2606Pico",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.7,
+    "release_year": 2018,
+    "synopsis": "Mini anime series featuring the girls from Girls Band Party!",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/41292/large.jpg"
+  },
+  {
+    "id": 106,
+    "title": "BanG Dream!: Asonjatta!",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.0,
+    "release_year": 2017,
+    "synopsis": "Unaired episode included with the 7th BD volume of BanG Dream!.",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/13753/large.jpg"
+  },
+  {
+    "id": 107,
+    "title": "BanG Dream! Garupa\u2606Pico: Oomori",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.6,
+    "release_year": 2020,
+    "synopsis": "The second season of BanG Dream! Garupa\u2606Pico.",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/43185/large.jpg"
+  },
+  {
+    "id": 108,
+    "title": "Baa-cha no Kingyo",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 6.8,
+    "release_year": 2012,
+    "synopsis": "The story follows an old lady that is very fond of her gold fish and the dream she has revolving it. She recalls an event in her younger years as a child and the reason behind her love for gold fishes.\n\n(Source: AniDB)",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/12111/large.jpg"
+  },
+  {
+    "id": 109,
+    "title": "Ijiwaru Baasan",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 8.0,
+    "release_year": 1970,
+    "synopsis": "Based on a 1966 manga by Sazae-san creator Hasegawa Machiko.\nThis is another slice-of-everyday-life tale, centered around a spiteful old woman who causes trouble for neighbours with her constant bumbling and grumbling.\n(Source: ANN)",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/9336/large.jpg"
+  },
+  {
+    "id": 110,
+    "title": "Ijiwaru Baasan (1996)",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 8.0,
+    "release_year": 1996,
+    "synopsis": "Grandma is a nasty and maipulative thing most of the time, cousing endless trouble for her son-in-law and daughter, her grandchildren, and her neighbours.\n(Source: ANN)",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/9337/large.jpg"
+  },
+  {
+    "id": 111,
+    "title": "Grandpa and Grandma Turn Young Again",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.3,
+    "release_year": 2024,
+    "synopsis": "The story of Jii-san Baa-san Wakagaeru follows Shouzou and Ine, an elderly couple who are living a quiet life in a farming village in Aomori Prefecture. After eating a mysterious apple that they discover on their apple farm, Shozo and Ine spontaneously regain their youth, but even after being reinvigorated they continue to live life at a grandparent-ly pace.\n\n(Source: Crunchyroll News, edited)",
+    "poster_url": "https://media.kitsu.app/anime/47857/poster_image/large-4f8abdca82efeab96ff2af844e975950.jpeg"
+  },
+  {
+    "id": 112,
+    "title": "Pok\u00e9mon Peek-a-boo!",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 8.0,
+    "release_year": 2019,
+    "synopsis": "What's in store for us today?\nCan you see the hiding Pok\u00e9mon?\nAll will be revealed in the end!\n\n(Source: Official YouTube Channel)",
+    "poster_url": "https://media.kitsu.app/anime/46199/poster_image/large-76b37fdfc46cd86c25b01614cb8dc719.jpeg"
+  },
+  {
+    "id": 113,
+    "title": "Peek-a-boo",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 8.0,
+    "release_year": 2011,
+    "synopsis": "The old granny playing peek-a-boo is gone. Instead, a stranger appears and draws closer to the child. Peek-a-boo involves exercising memory, and looking directly at your partner.\n\n1st Year Work 2011 by Keiko Shiraishi, Tokyo University of the Arts, Graduate School of Film and New Media, Department of Animation\n\n(Source: Geidai Animation)",
+    "poster_url": "https://media.kitsu.app/anime/45207/poster_image/large-d7c2cc3f03aa40b031e74a60bc2b6822.jpeg"
+  },
+  {
+    "id": 108,
+    "title": "Bang Baang",
+    "media_type": "series",
+    "genres": [
+      "Action",
+      "Thriller",
+      "Mystery"
+    ],
+    "rating": 8.0,
+    "release_year": 2021,
+    "synopsis": "Bang Baang is an action-packed murder mystery with a hint of romance. A series of murders take place one after the other and the badass couple, Raghu-Julia remain, in the center of dark secrets, crime, and action trying desperately to solve the case. Amongst all this chaos, their Jodi also takes an unexpected turn when an ex-flame, Meera enters their life. What happens to Raghu and Julia and the circumstances then?",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/294/736427.jpg"
+  },
+  {
+    "id": 109,
+    "title": "Bang",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 6.4,
+    "release_year": 2017,
+    "synopsis": "Loner Sam has his life transformed when he comes into possession of a gun and starts to break the law. His ambitious policewoman sister Gina is paid to uphold it and makes it her mission to find the owner of the weapon. The family saga plays out against an inquiry into the shooting of a local businessman that raises questions for Sam.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/469/1172932.jpg"
+  },
+  {
+    "id": 110,
+    "title": "Gandii Baat",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "rating": 8.0,
+    "release_year": 2018,
+    "synopsis": "Relationships over time, have become complicated or maybe they were never that simple as they seem. Gandii Baat unravels such complexed relationships, closet issues, shocking truths, bizarre myths and unexplored space of men and women through a series of thrilling and exciting stories from the rural part of India. Each story is distinct from other but weaved with the thread of eccentricities which will leave you with unexpected twists and turns. In these stories you will see how people from rural India are deeply affected by their dark fantasies. And it's not just men, but even rural women going to any extent for the sake of sex - including h...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/207/518169.jpg"
+  },
+  {
+    "id": 111,
+    "title": "Big Bag",
+    "media_type": "series",
+    "genres": [
+      "Children"
+    ],
+    "rating": 8.0,
+    "release_year": 1996,
+    "synopsis": "Big Bag was a children's series aimed at Pre-school viewers. It aired from 1996 to 1997 on Cartoon NetworkThe series is built on the idea that participation is the name of the game with kids. By speaking directly to the audience, the show encourages preschoolers to think creatively and investigate the world around them, as well as how to get along with others.Big Bag gently and creatively introduces children to the emotional and moral issues they will face in life. Story lines are set in the context of a preschooler's life: sharing a crayon, keeping a promise, or apologizing to a friend. By doing this, Big Bag instills a sense of values and r...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/64/162319.jpg"
+  },
+  {
+    "id": 112,
+    "title": "Comedy Bang! Bang!",
+    "media_type": "series",
+    "genres": [
+      "Comedy"
+    ],
+    "rating": 8.0,
+    "release_year": 2012,
+    "synopsis": "Comedy Bang! Bang! cleverly riffs on the well-known format of the late night talk show, infusing celebrity appearances and comedy sketches with a tinge of the surreal. In each episode, Aukerman engages his guests with unfiltered and improvisational lines of questioning, punctuated by banter and beats provided by bandleader, one-man musical mastermind Reggie Watts to reinvent the traditional celebrity interview. Packed with character cameos, filmic shorts, sketches and games set amongst an off-beat world, Comedy Bang! Bang! delivers thirty minutes of absurd laugh-loaded fun featuring some of the biggest names in comedy.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/6/15195.jpg"
+  },
+  {
+    "id": 114,
+    "title": "Black Sheep Squadron",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "rating": 7.0,
+    "release_year": 1976,
+    "synopsis": "In World War II Marine Corps Major Greg 'Pappy' Boyington commanded a squadron of fighter pilots. They were a collection of misfits and screwballs who became the terrors of the South Pacific. They were known as the Black Sheep.Baa Baa Black Sheep (renamed Black Sheep Squadron for the second season) is an American television series that was part period military drama, part comedy.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/594/1486922.jpg"
+  },
+  {
+    "id": 115,
+    "title": "Langkha Bai Bua",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "rating": 8.0,
+    "release_year": 2023,
+    "synopsis": "Series matching baa.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/483/1207656.jpg"
+  },
+  {
+    "id": 116,
+    "title": "BIA",
+    "media_type": "series",
+    "genres": [
+      "Action",
+      "Children",
+      "Music"
+    ],
+    "rating": 8.0,
+    "release_year": 2019,
+    "synopsis": "Series matching baa.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/204/511417.jpg"
+  },
+  {
+    "id": 117,
+    "title": "Baba",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.0,
+    "release_year": 2022,
+    "synopsis": "It will be told that the life of Emin Saruhanl\u0131, who has not been at odds with his brother Mehmet Ali for years, suddenly changed with the plane crash.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/577/1443946.jpg"
+  },
+  {
+    "id": 118,
+    "title": "Bad Monkey",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "rating": 7.4,
+    "release_year": 2024,
+    "synopsis": "Bad Monkey tells the story of Andrew Yancy, a one-time detective demoted to restaurant inspector in Southern Florida. A severed arm found by a tourist out fishing pulls Yancy into the world of greed and corruption that decimates the land and environment in both Florida and the Bahamas. And yes, there's a monkey.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/646/1615059.jpg"
+  },
+  {
+    "id": 119,
+    "title": "Kaiketsu Zorori",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.3,
+    "release_year": 2004,
+    "synopsis": "Adapted from the popular storybooks of the same name by Yutaka Hara, Kaiketsu Zorori follows the adventures of a scheming fox named Zorori, who is determined to become the King of Mischief with his very own castle and beautiful bride.  Although Zorori is notorious for his pranks and tricks, his conniving plots often backfire and end up helping his targets, and despite appearing to be villainous and immoral, he is actually caring and sentimental.  Nevertheless, Zorori has the wits, intelligence, and dexterity to always find a solution out of the most hopeless of situations.  Travelling with a pair of twin boar bandits, Ishishi and Noshishi, he...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/3159/large.jpg"
+  },
+  {
+    "id": 119,
+    "title": "Kaiketsu Zorori",
+    "media_type": "anime",
+    "genres": [
+      "Anime",
+      "Action",
+      "Adventure"
+    ],
+    "rating": 7.3,
+    "release_year": 2004,
+    "synopsis": "Adapted from the popular storybooks of the same name by Yutaka Hara, Kaiketsu Zorori follows the adventures of a scheming fox named Zorori, who is determined to become the King of Mischief with his very own castle and beautiful bride.  Although Zorori is notorious for his pranks and tricks, his conniving plots often backfire and end up helping his targets, and despite appearing to be villainous and immoral, he is actually caring and sentimental.  Nevertheless, Zorori has the wits, intelligence, and dexterity to always find a solution out of the most hopeless of situations.  Travelling with a pair of twin boar bandits, Ishishi and Noshishi, he...",
+    "poster_url": "https://media.kitsu.app/anime/poster_images/3159/large.jpg"
+  },
+  {
+    "id": 120,
+    "title": "neXt",
+    "media_type": "series",
+    "genres": [
+      "Science-Fiction",
+      "Thriller"
+    ],
+    "rating": 7.1,
+    "release_year": 2020,
+    "synopsis": "neXt is a propulsive thriller set in the A.I. research world. It features a brilliant but paranoid former tech CEO who joins a Homeland Cybersecurity Agent and her team to stop the world's first artificial intelligence crisis: the emergence of a rogue AI with the ability to continuously improve itself. Marrying pulse-pounding action with a layered examination of how technology is invading our lives and transforming us in ways we don't yet understand, the series also presents us with a villain like we've never seen before, one whose greatest weapon against us is ourselves.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/266/665211.jpg"
+  },
+  {
+    "id": 121,
+    "title": "Dept. Q",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "rating": 8.1,
+    "release_year": 2025,
+    "synopsis": "DCI Carl Morck is a brilliant cop but a terrible colleague. His razor-sharp sarcasm has made him no friends in Edinburgh police. After a shooting that leaves a young PC dead, and his partner paralysed, he finds himself exiled to the basement and the sole member of Department Q; a newly formed cold case unit. The department is a PR stunt, there to distract the public from the failures of an under-resourced, failing police force that is glad to see the back of him. But more by accident than design, Carl starts to build a gang of waifs and strays who have everything to prove. So, when the stone-cold trail of a prominent civil servant who disappe...",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/571/1427771.jpg"
+  },
+  {
+    "id": 122,
+    "title": "Text Santa",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.0,
+    "release_year": 2011,
+    "synopsis": "A live charity telethon appeal which has aired on ITV since 2011. Each year the Christmas appeal show raises money for charities across the UK.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/34/86625.jpg"
+  },
+  {
+    "id": 120,
+    "title": "Dino Dex",
+    "media_type": "series",
+    "genres": [
+      "Adventure",
+      "Children",
+      "Fantasy"
+    ],
+    "rating": 8.0,
+    "release_year": 2024,
+    "synopsis": "Dex is a 9-year-old artist, explorer, and \u2018paleontologist in training'. Like Dan, Trek, and Dana before him, Dex uses his Dino Field Guide to magically see and study dinosaurs in the real world. But Dex envisions them a little differently. Thanks to his artistic eye, Dex wants to reconsider how dinosaurs looked and lived and he's not afraid to get right into the action to do it. Fortunately, he's got his geology-loving neighbor Kayla along for this prehistoric ride. Join Dex and Kayla as they re-examine and question everything we thought we knew about dinosaurs.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/537/1344249.jpg"
+  },
+  {
+    "id": 121,
+    "title": "Stumptown",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "rating": 6.9,
+    "release_year": 2019,
+    "synopsis": "Dex Parios is a sharp-witted army veteran with a complicated love life, gambling debt and a brother to take care of. Her skills make her a great PI, but her style puts her in the firing line.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/486/1215698.jpg"
+  },
+  {
+    "id": 122,
+    "title": "Dex Hamilton: Alien Entomologist",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 6.5,
+    "release_year": 2008,
+    "synopsis": "It is the year 3000. Dex Hamilton, a young entomologist and wildlife explorer is called into action when alien insects crawling through the galaxy create a dangerous rift between man and nature. Accompanied by his team of scientists, Zap Monogan, Jenny 10 and Tung \"the fantastic frog boy\", Dex sets out to observe and capture these strange specimens.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/488/1221117.jpg"
+  },
+  {
+    "id": 123,
+    "title": "Tex Mex Motors",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.0,
+    "release_year": 2023,
+    "synopsis": "Junkers turn into jewels when they're in the hands of these pros, who bring cars from Mexico to El Paso for radical restorations in this lively series.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/462/1155744.jpg"
+  },
+  {
+    "id": 124,
+    "title": "Des",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "rating": 7.7,
+    "release_year": 2020,
+    "synopsis": "Des is based on material from the book Killing for Company by Brian Masters, which focuses on one of the most infamous cases in UK criminal history, that of serial killer Dennis Nilsen. Told through the prism of three men\u2014Dennis Nilsen, Detective Chief Inspector Peter Jay and biographer Brian Masters\u2014the series exploring the personal and professional consequences of coming into contact with a man like Nilsen.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/295/738314.jpg"
+  },
+  {
+    "id": 125,
+    "title": "Lex",
+    "media_type": "series",
+    "genres": [
+      "Drama"
+    ],
+    "rating": 8.0,
+    "release_year": 2019,
+    "synopsis": "In Lex, when a disgraced former reality star accidentally films a murder in the background of a $20 Cameo video, he finds himself at the center of a global conspiracy \u2014 and on the run from powerful forces who want him dead. Using the skills he acquired navigating reality TV's toxic social dynamics, Lex must fight to not get killed, to expose the truth, and most importantly\u2026 to get back on TV.",
+    "poster_url": ""
+  },
+  {
+    "id": 120,
+    "title": "Dexter: Resurrection",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "rating": 8.4,
+    "release_year": 2025,
+    "synopsis": "Dexter Morgan awakens from a coma and sets out for New York City, determined to find Harrison and make things right. But when Miami Metro's Angel Batista arrives with questions, Dexter realizes his past is catching up to him fast.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/644/1610337.jpg"
+  },
+  {
+    "id": 121,
+    "title": "Dexter: New Blood",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "rating": 7.6,
+    "release_year": 2021,
+    "synopsis": "Set 10 years after Dexter went missing in the eye of Hurricane Laura, the series finds him living under an assumed name in the small town of Iron Lake, New York. Dexter may be embracing his new life, but in the wake of unexpected events in this close-knit community, his Dark Passenger beckons.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/498/1245284.jpg"
+  },
+  {
+    "id": 122,
+    "title": "Dexter: Original Sin",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "rating": 7.9,
+    "release_year": 2024,
+    "synopsis": "Set in 1991 Miami, Dexter: Original Sin follows Dexter as he transitions from student to avenging serial killer. When his bloodthirsty urges can't be ignored any longer, Dexter must learn to channel his inner darkness. With the guidance of his father, Harry, he adopts a Code designed to help him find and kill people who deserve to be eliminated from society without getting on law enforcements' radar. This is a particular challenge for young Dexter as he begins a forensics internship at the Miami Metro Police Department.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/548/1372007.jpg"
+  },
+  {
+    "id": 123,
+    "title": "Dexter: Early Cuts",
+    "media_type": "series",
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "rating": 6.4,
+    "release_year": 2009,
+    "synopsis": "The first cut is the deepest. Watch Dexter Morgan's early years.",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/26/65766.jpg"
+  },
+  {
+    "id": 124,
+    "title": "Dexter's Laboratory",
+    "media_type": "series",
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Children"
+    ],
+    "rating": 7.3,
+    "release_year": 1996,
+    "synopsis": "Deep in the depths of his secret laboratory, boy genius Dexter computes, experiments, invents and builds incredible creations like mom robots, interdimensional portals, talking animals, brain replacements and stealth dodgeball devices, until his ditzy sister Dee Dee ruins his overly-executed plans \u2026 if only he could fit her into a test tube!",
+    "poster_url": "https://static.tvmaze.com/uploads/images/original_untouched/11/27891.jpg"
+  }
+]
