@@ -13,6 +13,8 @@ import {
   Film,
   Tv,
   Wand2,
+  ShieldCheck,
+  Leaf,
 } from 'lucide-react';
 import MediaCard from './components/MediaCard';
 
@@ -24,6 +26,8 @@ const FILTER_TABS = [
   { id: 'movie', label: 'Movies' },
   { id: 'series', label: 'TV Series' },
 ];
+
+const DEFAULT_MATURE_GENRES = ['horror', 'thriller', 'crime', 'psychological', 'dark', 'gore', 'adult'];
 
 export default function App() {
   // Navigation Drawer & Active View ('discover' | 'watchlist' | 'completed')
@@ -42,6 +46,67 @@ export default function App() {
   const [completedIds, setCompletedIds] = useState([]);
   const [watchlistItems, setWatchlistItems] = useState([]);
   const [completedItems, setCompletedItems] = useState([]);
+
+  // =========================================================================
+  // SDG 13: Eco-Stream Carbon Footprint Tracker State (Climate Action)
+  // =========================================================================
+  const [streamQuality, setStreamQuality] = useState('1080p');
+
+  const emissionRates = {
+    '4K': 90,
+    '1080p': 55,
+    '720p': 25,
+  };
+
+  const safeCompleted = Array.isArray(completedItems) ? completedItems : [];
+
+  const totalHoursWatched = safeCompleted.reduce((acc, item) => {
+    const hours = item?.media_type === 'movie' ? 2 : 4;
+    return acc + hours;
+  }, 0);
+
+  const totalCo2Grams = totalHoursWatched * (emissionRates[streamQuality] || 55);
+  const co2SavedGrams =
+    totalHoursWatched * (emissionRates['4K'] - (emissionRates[streamQuality] || 55));
+
+  // =========================================================================
+  // SDG 3: Family Safe Mode State (Good Health & Digital Well-Being)
+  // =========================================================================
+  const [safeMode, setSafeMode] = useState(false);
+  const [strictnessLevel, setStrictnessLevel] = useState('standard'); // 'standard' | 'strict'
+
+  // Helper to check if an item should be hidden under Family Safe Mode
+  const isItemFamilySafe = useCallback(
+    (item) => {
+      if (!safeMode) return true;
+      const genres = (item?.genres || []).map((g) => String(g).toLowerCase());
+      const synopsis = String(item?.synopsis || '').toLowerCase();
+      const title = String(item?.title || '').toLowerCase();
+
+      // Standard blocks Horror, Thriller, Crime, Psychological, etc.
+      const blockedKeywords =
+        strictnessLevel === 'strict'
+          ? [...DEFAULT_MATURE_GENRES, 'action', 'cyberpunk', 'mystery', 'violence', 'murder', 'blood']
+          : DEFAULT_MATURE_GENRES;
+
+      const hasMatureGenre = genres.some((g) =>
+        blockedKeywords.some((keyword) => g.includes(keyword))
+      );
+      const hasMatureText = blockedKeywords.some(
+        (keyword) => synopsis.includes(keyword) || title.includes(keyword)
+      );
+
+      return !(hasMatureGenre || hasMatureText);
+    },
+    [safeMode, strictnessLevel]
+  );
+
+  // Filtered media list after applying Family Safe Mode
+  const visibleMediaList = useMemo(() => {
+    return mediaList.filter(isItemFamilySafe);
+  }, [mediaList, isItemFamilySafe]);
+
+  const hiddenMatureCount = mediaList.length - visibleMediaList.length;
 
   // Recommendation Modal State
   const [recSource, setRecSource] = useState(null);
@@ -172,14 +237,15 @@ export default function App() {
   }, [searchQuery, selectedType]);
 
   // Organize into Netflix-style sections when viewing unfiltered Discover feed
-  const isDefaultDiscover = activeView === 'discover' && !searchQuery.trim() && selectedType === 'all';
+  const isDefaultDiscover =
+    activeView === 'discover' && !searchQuery.trim() && selectedType === 'all';
 
   const sections = useMemo(() => {
-    if (!mediaList.length) return [];
-    const topRated = [...mediaList].sort((a, b) => b.rating - a.rating).slice(0, 8);
-    const animeRow = mediaList.filter((i) => i.media_type === 'anime');
-    const movieRow = mediaList.filter((i) => i.media_type === 'movie');
-    const seriesRow = mediaList.filter((i) => i.media_type === 'series');
+    if (!visibleMediaList.length) return [];
+    const topRated = [...visibleMediaList].sort((a, b) => b.rating - a.rating).slice(0, 8);
+    const animeRow = visibleMediaList.filter((i) => i.media_type === 'anime');
+    const movieRow = visibleMediaList.filter((i) => i.media_type === 'movie');
+    const seriesRow = visibleMediaList.filter((i) => i.media_type === 'series');
 
     return [
       { id: 'top', title: 'Top Rated Across All Media', icon: Flame, color: 'text-amber-400', items: topRated },
@@ -187,7 +253,7 @@ export default function App() {
       { id: 'movies', title: 'Blockbuster Movies', icon: Film, color: 'text-blue-400', items: movieRow },
       { id: 'series', title: 'Binge-Worthy TV Series', icon: Tv, color: 'text-emerald-400', items: seriesRow },
     ].filter((sec) => sec.items.length > 0);
-  }, [mediaList]);
+  }, [visibleMediaList]);
 
   const switchView = (view) => {
     setActiveView(view);
@@ -229,6 +295,21 @@ export default function App() {
 
           {/* Quick View Pills on Desktop */}
           <div className="flex items-center gap-2 text-xs">
+            <button
+              onClick={() => setSafeMode((prev) => !prev)}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg font-semibold transition cursor-pointer border ${
+                safeMode
+                  ? 'bg-sky-600 text-white border-sky-400 shadow-md shadow-sky-600/20'
+                  : 'bg-slate-900 text-slate-400 hover:text-white border-slate-800'
+              }`}
+              title="Toggle Family Safe Content Filter (SDG 3)"
+            >
+              <ShieldCheck className="w-3.5 h-3.5" />
+              <span className="hidden md:inline">
+                {safeMode ? 'Safe Mode: ON' : 'Safe Mode'}
+              </span>
+            </button>
+
             <button
               onClick={() => switchView('discover')}
               className={`px-3 py-1.5 rounded-lg font-medium transition cursor-pointer ${
@@ -305,7 +386,7 @@ export default function App() {
                     <Compass className="w-4 h-4" />
                     Discover Catalog
                   </span>
-                  <span className="text-xs opacity-75">{mediaList.length}</span>
+                  <span className="text-xs opacity-75">{visibleMediaList.length}</span>
                 </button>
 
                 <button
@@ -352,8 +433,115 @@ export default function App() {
         </div>
       )}
 
+      {/* Dual SDG Impact Control Banner (SDG 13 + SDG 3) */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          {/* PANEL 1: SDG 13 Eco-Stream Carbon Footprint Tracker */}
+          <div className="p-4 rounded-2xl bg-linear-to-r from-emerald-950/70 via-slate-900 to-slate-900 border border-emerald-500/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg">
+            <div className="flex items-start gap-3">
+              <div className="p-2.5 rounded-xl bg-emerald-500/20 border border-emerald-500/40 text-emerald-400 shrink-0">
+                <Leaf className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="flex flex-wrap items-center gap-2">
+                  <h3 className="text-white font-bold text-sm">Eco-Stream Carbon Tracker</h3>
+                  <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 font-semibold">
+                    SDG 13 · Climate Action
+                  </span>
+                </div>
+                <p className="text-slate-400 text-xs mt-1">
+                  Completed: <strong className="text-slate-200">{safeCompleted.length}</strong> titles (~{totalHoursWatched} hrs streamed)
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2.5 w-full sm:w-auto justify-between sm:justify-end">
+              <div className="flex items-center gap-1.5 bg-slate-950/90 px-2.5 py-1.5 rounded-xl border border-slate-800">
+                <label className="text-[11px] text-slate-400">Quality:</label>
+                <select
+                  value={streamQuality}
+                  onChange={(e) => setStreamQuality(e.target.value)}
+                  className="bg-slate-900 text-emerald-400 text-xs font-bold px-2 py-0.5 rounded border border-emerald-500/40 focus:outline-none cursor-pointer"
+                >
+                  <option value="4K">4K (90g/hr)</option>
+                  <option value="1080p">1080p (55g/hr)</option>
+                  <option value="720p">720p Eco (25g/hr)</option>
+                </select>
+              </div>
+
+              <div className="flex items-center gap-2.5 bg-slate-950/90 px-3 py-1.5 rounded-xl border border-emerald-500/20">
+                <div>
+                  <span className="text-[9px] uppercase text-slate-400 block">Footprint</span>
+                  <span className="text-xs font-extrabold text-white">
+                    {totalCo2Grams >= 1000
+                      ? `${(totalCo2Grams / 1000).toFixed(2)} kg`
+                      : `${totalCo2Grams} g`}{' '}
+                    CO₂
+                  </span>
+                </div>
+                {co2SavedGrams > 0 && (
+                  <div className="pl-2.5 border-l border-slate-800">
+                    <span className="text-[9px] uppercase text-emerald-400 block">Saved vs 4K</span>
+                    <span className="text-xs font-extrabold text-emerald-400">
+                      -{co2SavedGrams}g
+                    </span>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* PANEL 2: SDG 3 Family Safe Content Filter */}
+          <div className="p-4 rounded-2xl bg-linear-to-r from-sky-950/70 via-slate-900 to-slate-900 border border-sky-500/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg">
+            <div className="flex items-start gap-3">
+              <div className="p-2.5 rounded-xl bg-sky-500/20 border border-sky-500/40 text-sky-400 shrink-0">
+                <ShieldCheck className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="flex flex-wrap items-center gap-2">
+                  <h3 className="text-white font-bold text-sm">Family Safe Content Filter</h3>
+                  <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-sky-500/20 text-sky-300 border border-sky-500/30 font-semibold">
+                    SDG 3 · Digital Well-Being
+                  </span>
+                </div>
+                <p className="text-slate-400 text-xs mt-1">
+                  {safeMode
+                    ? `Active: Shielding ${hiddenMatureCount} mature/violent titles from feed.`
+                    : 'Filters out Horror, Thriller, Crime & mature-rated titles for younger viewers.'}
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2.5 w-full sm:w-auto justify-between sm:justify-end">
+              <div className="flex items-center gap-1.5 bg-slate-950/90 px-2.5 py-1.5 rounded-xl border border-slate-800">
+                <label className="text-[11px] text-slate-400">Level:</label>
+                <select
+                  value={strictnessLevel}
+                  onChange={(e) => setStrictnessLevel(e.target.value)}
+                  className="bg-slate-900 text-sky-400 text-xs font-bold px-2 py-0.5 rounded border border-sky-500/40 focus:outline-none cursor-pointer"
+                >
+                  <option value="standard">PG-13 (Standard)</option>
+                  <option value="strict">Kids (Strict)</option>
+                </select>
+              </div>
+
+              <button
+                onClick={() => setSafeMode((prev) => !prev)}
+                className={`px-3.5 py-2 rounded-xl text-xs font-bold transition cursor-pointer border ${
+                  safeMode
+                    ? 'bg-sky-500 text-slate-950 border-sky-400 shadow-md shadow-sky-500/25'
+                    : 'bg-slate-950 text-slate-300 hover:text-white border-slate-800'
+                }`}
+              >
+                {safeMode ? 'Shield Active ✓' : 'Enable Safe Mode'}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Main Content Area */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {/* VIEW 1: DISCOVER */}
         {activeView === 'discover' && (
           <>
@@ -442,17 +630,20 @@ export default function App() {
                   );
                 })}
               </div>
-            ) : mediaList.length === 0 ? (
+            ) : visibleMediaList.length === 0 ? (
               <div className="text-center py-20 bg-slate-900/30 border border-dashed border-slate-800 rounded-2xl">
-                <p className="text-slate-400 text-sm">No media matched your filter criteria.</p>
+                <p className="text-slate-400 text-sm">
+                  No media matched your filter criteria {safeMode ? '(or was hidden by Family Safe Mode)' : ''}.
+                </p>
                 <button
                   onClick={() => {
                     setSearchQuery('');
                     setSelectedType('all');
+                    setSafeMode(false);
                   }}
                   className="mt-3 text-xs text-indigo-400 hover:underline cursor-pointer"
                 >
-                  Reset filters
+                  Reset all filters
                 </button>
               </div>
             ) : (
@@ -460,7 +651,7 @@ export default function App() {
               <>
                 <div className="flex items-center justify-between mb-4 px-1">
                   <span className="text-xs font-medium text-slate-400">
-                    Filtered Results: <strong className="text-slate-200">{mediaList.length}</strong> titles
+                    Filtered Results: <strong className="text-slate-200">{visibleMediaList.length}</strong> titles
                   </span>
                   <button
                     onClick={() => {
@@ -473,7 +664,7 @@ export default function App() {
                   </button>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                  {mediaList.map((item) => (
+                  {visibleMediaList.map((item) => (
                     <MediaCard
                       key={item.id}
                       item={item}
@@ -511,7 +702,7 @@ export default function App() {
               </button>
             </div>
 
-            {watchlistItems.length === 0 ? (
+            {watchlistItems.filter(isItemFamilySafe).length === 0 ? (
               <div className="text-center py-20 bg-slate-900/30 border border-dashed border-slate-800 rounded-2xl">
                 <p className="text-slate-400 text-sm">Your Watchlist is currently empty.</p>
                 <button
@@ -523,7 +714,7 @@ export default function App() {
               </div>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {watchlistItems.map((item) => (
+                {watchlistItems.filter(isItemFamilySafe).map((item) => (
                   <MediaCard
                     key={item.id}
                     item={item}
@@ -549,7 +740,7 @@ export default function App() {
                   <CheckCircle2 className="w-6 h-6 text-emerald-400" /> Completed Media
                 </h1>
                 <p className="text-xs text-slate-400 mt-1">
-                  Titles you have finished watching. Click "Find Similar Media" on any card for recommendations!
+                  Titles you have finished watching. Each title updates your Eco-Stream Carbon Tracker above!
                 </p>
               </div>
               <button
@@ -560,7 +751,7 @@ export default function App() {
               </button>
             </div>
 
-            {completedItems.length === 0 ? (
+            {completedItems.filter(isItemFamilySafe).length === 0 ? (
               <div className="text-center py-20 bg-slate-900/30 border border-dashed border-slate-800 rounded-2xl">
                 <p className="text-slate-400 text-sm">You haven't marked any titles as completed yet.</p>
                 <button
@@ -572,7 +763,7 @@ export default function App() {
               </div>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {completedItems.map((item) => (
+                {completedItems.filter(isItemFamilySafe).map((item) => (
                   <MediaCard
                     key={item.id}
                     item={item}
@@ -623,29 +814,31 @@ export default function App() {
                 <Loader2 className="w-7 h-7 animate-spin text-purple-500 mb-2" />
                 <p className="text-xs">Computing similarity scores across Anime, Movies & Series...</p>
               </div>
-            ) : recList.length === 0 ? (
+            ) : recList.filter((r) => isItemFamilySafe(r.item)).length === 0 ? (
               <p className="text-sm text-slate-400 text-center py-12">
                 No similar titles found.
               </p>
             ) : (
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
-                {recList.map((rec) => (
-                  <MediaCard
-                    key={rec.item.id}
-                    item={rec.item}
-                    isWatchlisted={watchlistIds.includes(rec.item.id)}
-                    isCompleted={completedIds.includes(rec.item.id)}
-                    onToggleWatchlist={handleToggleWatchlist}
-                    onToggleCompleted={handleToggleCompleted}
-                    onSelectRecommend={handleOpenRecommendations}
-                    onSelectDetails={(clicked) => {
-                      setRecSource(null);
-                      handleOpenDetails(clicked);
-                    }}
-                    similarityScore={rec.similarity_score}
-                    sharedGenres={rec.shared_genres}
-                  />
-                ))}
+                {recList
+                  .filter((r) => isItemFamilySafe(r.item))
+                  .map((rec) => (
+                    <MediaCard
+                      key={rec.item.id}
+                      item={rec.item}
+                      isWatchlisted={watchlistIds.includes(rec.item.id)}
+                      isCompleted={completedIds.includes(rec.item.id)}
+                      onToggleWatchlist={handleToggleWatchlist}
+                      onToggleCompleted={handleToggleCompleted}
+                      onSelectRecommend={handleOpenRecommendations}
+                      onSelectDetails={(clicked) => {
+                        setRecSource(null);
+                        handleOpenDetails(clicked);
+                      }}
+                      similarityScore={rec.similarity_score}
+                      sharedGenres={rec.shared_genres}
+                    />
+                  ))}
               </div>
             )}
           </div>
@@ -669,7 +862,8 @@ export default function App() {
               <div className="flex items-start justify-between gap-3">
                 <div>
                   <span className="text-xs font-semibold uppercase tracking-wider text-indigo-400">
-                    {selectedDetailItem.media_type} • {selectedDetailItem.release_year} • ⭐ {selectedDetailItem.rating}
+                    {selectedDetailItem.media_type} • {selectedDetailItem.release_year} • ⭐{' '}
+                    {selectedDetailItem.rating}
                   </span>
                   <h2 className="text-2xl font-extrabold text-white mt-1">
                     {selectedDetailItem.title}
@@ -740,7 +934,9 @@ export default function App() {
                   onClick={() => handleToggleWatchlist(selectedDetailItem.id)}
                   className="px-4 py-2 rounded-xl text-xs font-semibold bg-indigo-600 hover:bg-indigo-500 text-white cursor-pointer"
                 >
-                  {watchlistIds.includes(selectedDetailItem.id) ? 'Saved in Watchlist ✓' : '+ Add to Watchlist'}
+                  {watchlistIds.includes(selectedDetailItem.id)
+                    ? 'Saved in Watchlist ✓'
+                    : '+ Add to Watchlist'}
                 </button>
                 <button
                   onClick={() => {
